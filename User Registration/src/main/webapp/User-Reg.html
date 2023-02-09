@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER Registration</title>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <form action="registration" method="post">
+                <h1> USER REGISTRATION</h1>
+                <fieldset>
+                    <legend> *Required Fields </legend>
+
+                    <label for="name">First Name*</label>
+                    <input type="text" name="first_name">
+
+                    <label for="name">Last Name*</label>
+                    <input type="text" name="last_name">
+
+                    <label for="email">Email*</label>
+                    <input type="email" name="email">
+
+                    <label for="zip">Zip Code*</label>
+                    <input type="text" name="zip">
+
+                    <label for="username">User Name*</label>
+                    <input type="text" name="username">
+
+                    <label for="password">Password*</label>
+                    <input type="password" name="password">
+
+                    <label for="confirm">Confirm Password*</label>
+                    <input type="password" name="confirm">
+
+                    <label>What music are you interested in?</label>
+                    <input type="checkbox" value="Rock" name="music">
+                    <label class="light" for="rock">Rock</label>
+                    <input type="checkbox" value="Pop" name="music">
+                    <label class="light" for="pop">Pop</label>
+                    <input type="checkbox" value="Bluegrass" name="music">
+                    <label class="light" for="bluegrass">Bluegrass</label>
+                    <br />
+                    <input type="checkbox" value="Blues" name="music">
+                    <label class="light" for="blues">Blues</label>
+                    <input type="checkbox" value="Jazz" name="music">
+                    <label class="light" for="jazz">Jazz</label>
+                    <input type="checkbox" value="Country" name="music">
+                    <label class="light" for="country">Country</label>
+                    <br />
+                    <br />
+
+                    <label>Would you like to receive email notifications on our special sales?</label>
+                    <input type="radio" value="Yes" name="notification" checked>
+                    <label for="yes" class="light">Yes</label>
+                    <input type="radio" value="No" name="notification">
+                    <label for="no" class="light">No</label>
+                </fieldset>
+
+                <button type="submit" name="submit">Sign Up</button><button type="reset" name="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
